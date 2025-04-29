@@ -1,0 +1,26 @@
+.ful-cont{
+    max-width: 1000px;
+    width: 90%;
+    margin-inline: auto;
+    h1{
+        color: white;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+.all-project {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.all-project img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+:hover.project{
+    transform: scale(110%);
+    transition: 1s;
+    cursor: pointer;
+}

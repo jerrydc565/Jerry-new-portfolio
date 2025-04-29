@@ -1,0 +1,82 @@
+.main-container {
+  display: flex;
+  max-width: 1000px;
+  width: 90%;
+  margin-inline: auto;
+  align-items: center;
+}
+.left-container {
+  width: 100%;
+
+  animation-name: text4;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.left-container img {
+  width: 400px;
+  animation-name: text7;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+.right-container {
+  width: 100%;
+  h1 {
+    font-size: 50px;
+    color: white;
+     animation-name: text2;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  }
+  h3 {
+    font-size: 25px;
+    color: #fa8220;
+     animation-name: text4;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  }
+  p {
+    font-size: 18px;
+    color: white;
+     animation-name: text3;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  }
+  .me {
+    color: #fa8220;
+  }
+}
+button {
+  padding: 5px;
+  width: 35%;
+  border: none;
+  background-color: transparent;
+  color: #ed7a15;
+  border-radius: 30px;
+  border: #ed7a15 solid 3px;
+  font-weight: 20px;
+  margin-top: 30px;
+  animation-name: text5;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+:hover button {
+  box-shadow: 3px 1px 8px 2px #ed7a15;
+  cursor: pointer;
+  transition: 1s;
+  transform: scale(90%);
+}
+/* @keyframes text3 {
+  from {
+    transform: translateX(-500px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+} */

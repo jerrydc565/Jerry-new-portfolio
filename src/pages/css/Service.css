@@ -1,0 +1,64 @@
+.full-section h1{
+    color: white;
+    text-align: center;
+    margin-bottom : 100px;
+    margin-top: 30px;
+      animation-name: text3;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.cards-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    color: rgb(249, 120, 28);
+    div{
+        text-align: center;
+        width: 100%;
+    }
+    h3{
+        font-size: 20px;
+    }
+    p{
+        color: rgb(216, 216, 216);
+    }
+}
+.div1{
+ animation-name: text2;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.div2{
+     animation-name: text11;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.div3{
+    animation-name: text2;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+}
+.div4{
+   animation-name: text11;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;  
+}
+
+.cards-section img{
+width: 50px;
+filter: invert(100%);
+}
+@keyframes text11 {
+    from {
+        transform: translateY(500px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+    
+}

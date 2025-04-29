@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  max-width: 1000px;
+  margin-inline: auto;
+  width: 90%;
+  align-items: center;
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  a {
+    text-decoration: none;
+    color: #ffff;
+  }
+  :hover.li {
+    color: #e7770f;
+    transition: 1s;
+  
+  }
+}
