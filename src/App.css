@@ -12,6 +12,7 @@
     list-style: none;
     gap: 20px;
   }
+
   a {
     text-decoration: none;
     color: #ffff;
@@ -19,6 +20,39 @@
   :hover.li {
     color: #e7770f;
     transition: 1s;
-  
+  }
+}
+@media screen and (max-width: 480px) {
+  .header ul {
+    display: none;
+  }
+  .mobile-nav-links {
+    background-color: rgba(255, 255, 255, 0.683);
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 50%;
+    height: 100vh;
+    z-index: 999;
+    padding: 20px;
+    animation-name: text3;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+   ul{
+    list-style: none;
+    
+  }
+  li{
+    margin-top: 50px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+  }
+  }
+  #closebtn{
+    border: black;
   }
 }

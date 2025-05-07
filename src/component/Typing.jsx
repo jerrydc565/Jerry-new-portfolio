@@ -4,7 +4,7 @@ function Typing() {
     
   return (
     <span>
-          <Typewriter words={["Programmer", "UI/UX Designser", "Graphix Designer"]}
+          <Typewriter words={["Programmer", "UI/UX Designser", "Graphix Designer", "Web Developer"]}
               loop={1000}
               cursor
               cursorStyle="|"

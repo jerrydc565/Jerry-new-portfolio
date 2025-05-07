@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Service from "./pages/Service";
 import Gallary from "./pages/Gallary";
 import Contact from "./pages/Contact";
+import HeroSection from "./component/HeroSection";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/gallary" element={<Gallary />} />
           <Route path="/contact-me" element={<Contact />} />
         </Routes>
+      
       </BrowserRouter>
     </>
   );

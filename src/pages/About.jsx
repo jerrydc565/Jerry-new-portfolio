@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../component/Header";
 import ProfileImg from "../assets/img/pro3.png";
 import "./css/About.css"
+import AnotherTyping from "../component/AnotherTyping";
 
 function About() {
   return (
@@ -15,7 +16,7 @@ function About() {
           <h1>
             About <span className="me">Me</span>
           </h1>
-          <h3>Programmer And Designer!</h3>
+          <h3> <AnotherTyping/></h3>
           <p>
             Hello, my name is Jerry, i am a third year student in the university
             of benin, i live in Nigeria, Benin city. I am an abicious person and

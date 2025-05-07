@@ -1,12 +1,12 @@
-.ful-cont{
-    max-width: 1000px;
-    width: 90%;
-    margin-inline: auto;
-    h1{
-        color: white;
-        text-align: center;
-        margin-bottom: 30px;
-    }
+.ful-cont {
+  max-width: 1000px;
+  width: 90%;
+  margin-inline: auto;
+  h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+  }
 }
 .all-project {
   display: grid;
@@ -14,13 +14,48 @@
   gap: 20px;
 }
 
-.all-project img{
-    width: 100%;
-    border-radius: 20px;
-
+.all-project img {
+  width: 100%;
+  border-radius: 20px;
 }
-:hover.project{
-    transform: scale(110%);
-    transition: 1s;
-    cursor: pointer;
+:hover.project {
+  transform: scale(110%);
+  transition: 1s;
+  cursor: pointer;
+}
+.project1 {
+  animation-name: text4;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.project2 {
+  animation-name: text2;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.project3 {
+  animation-name: text3;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.project4 {
+  animation-name: text4;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.project5 {
+  animation-name: text11;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.project6 {
+  animation-name: text3;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }

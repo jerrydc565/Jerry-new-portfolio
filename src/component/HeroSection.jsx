@@ -25,20 +25,20 @@ import Whatsapp from "../assets/img/whatsapp_2504957.png";
         </p>
         <div className="contact">
           <a href="https://www.facebook.com/share/18VYZVzFsm/?mibextid=wwXIfr">
-            <button className="icon">
+            <button className="icon iconss">
               <i className="fa-brands fa-facebook-f"></i>
             </button>
           </a>
           <a href="https://www.instagram.com/joyehigiator466/?utm_source=ig_web_button_share_sheet">
-            <button className="icon">
+            <button className="icon iconss">
               <i className="fa-brands fa-instagram"></i>
             </button>
           </a>
-          <button className="icon">
+          <button className="icon iconss">
             <i className="fa-brands fa-whatsapp"></i>
           </button>
           <a href="https://www.tiktok.com/@jerry__dc?is_from_webapp=1&sender_device=pc">
-            <button className="icon">
+            <button className="icon iconss">
               <i className="fa-brands fa-tiktok"></i>
             </button>
           </a>
