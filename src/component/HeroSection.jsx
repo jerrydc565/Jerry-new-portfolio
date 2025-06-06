@@ -3,11 +3,12 @@ import "./HeroSection.css";
 import ProfileImg from "../assets/img/pro3.png";
 import Typing from "./Typing";
 import FaceBook from "../assets/img/facebook.png";
+import { Link } from "react-router-dom";
 import Instagram from "../assets/img/instagram.png";
 import Tiktok from "../assets/img/tiktok.png";
 import Whatsapp from "../assets/img/whatsapp_2504957.png";
 
- function HeroSection() {
+function HeroSection() {
   return (
     <section className="main-container">
       <div className="text-container">
@@ -43,8 +44,9 @@ import Whatsapp from "../assets/img/whatsapp_2504957.png";
             </button>
           </a>
         </div>
-
-        <button className="button-section">Book a call</button>
+        <Link to={"/contact-me"}>
+          <button className="button-section">Book a call</button>
+        </Link>
       </div>
       <div className="img-container">
         <img src={ProfileImg} alt="" />

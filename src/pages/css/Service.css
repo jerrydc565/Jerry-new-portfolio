@@ -10,7 +10,7 @@
 }
 .cards-section{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(2,1fr);
     gap: 20px;
     color: rgb(249, 120, 28);
     div{
@@ -29,6 +29,7 @@
   animation-duration: 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  margin-bottom: 30px;
 }
 .div2{
      animation-name: text11;
