@@ -36,13 +36,14 @@
     right: 0px;
     top: 0px;
     width: 50%;
-    height: 100vh;
+    height: 100%;
     z-index: 999;
     padding: 20px;
     animation-name: text3;
     animation-duration: 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    
     ul {
       list-style: none;
     }
@@ -60,6 +61,8 @@
       .menu-bar {
       display: block;
       z-index: 999;
+      
     }
+
   }
 }
