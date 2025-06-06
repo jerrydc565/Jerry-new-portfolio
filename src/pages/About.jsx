@@ -8,7 +8,7 @@ function About() {
   return (
     <>
   
-      <section className="main-container">
+      <section className="main-containers">
         <div className="left-container">
           <img src={ProfileImg} alt="" />
         </div>

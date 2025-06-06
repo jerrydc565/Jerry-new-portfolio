@@ -65,9 +65,9 @@ function Contact() {
             />
           </div>
           <div>
-            <label htmlFor="number">Phone*</label>
+            <label htmlFor="tel">Phone*</label>
             <input
-              type="number"
+              type="tel"
               name="number"
               id="number"
               required

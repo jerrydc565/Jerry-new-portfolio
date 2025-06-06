@@ -1,4 +1,4 @@
-.main-container {
+.main-containers {
   display: flex;
   max-width: 1000px;
   width: 90%;
@@ -80,3 +80,31 @@ button {
     transform: translateX(0px);
   }
 } */
+ @media screen and (max-width: 480px) {
+
+  .main-containers{
+    flex-direction: column;
+      gap: 70px;
+  }
+
+  .left-container{
+    /* margin-top: -80px; */
+    img{
+      width: 350px;
+    }
+  }
+  .right-container{
+    margin-top: -50px;
+    text-align: center;
+    h1{
+      font-size: 35px;
+      margin-top: 50px;
+    }
+    h3{
+      font-size: 25px;
+    }
+    p{
+      font-size: 16px;
+    }
+  }
+ }

@@ -64,7 +64,7 @@ function Header() {
               <li className="li">Contact me</li>
             </Link>
           </ul>
-          <img src={menuBar} alt="" onClick={handleModeChange} width={"40px"} />
+          <img src={menuBar} alt="" onClick={handleModeChange} width={"40px"} className="menu-bar"/>
         </nav>
       </header>
     </>

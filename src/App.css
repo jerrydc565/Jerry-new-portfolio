@@ -7,6 +7,7 @@
   margin-inline: auto;
   width: 90%;
   align-items: center;
+
   ul {
     display: flex;
     list-style: none;
@@ -20,6 +21,9 @@
   :hover.li {
     color: #e7770f;
     transition: 1s;
+  }
+  .menu-bar {
+    display: none;
   }
 }
 @media screen and (max-width: 480px) {
@@ -36,21 +40,26 @@
     z-index: 999;
     padding: 20px;
     animation-name: text3;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-   ul{
-    list-style: none;
-    
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    ul {
+      list-style: none;
+    }
+    li {
+      margin-top: 50px;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+      font-size: 25px;
+    }
+  
   }
-  li{
-    margin-top: 50px;
+  .header{
+      .menu-bar {
+      display: block;
+      z-index: 999;
+    }
   }
-  a{
-    text-decoration: none;
-    color: black;
-    font-size: 25px;
-  }
-  }
- 
 }
