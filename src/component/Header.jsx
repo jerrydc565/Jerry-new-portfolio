@@ -15,13 +15,16 @@ function Header() {
     }
   };
 
+  
   return (
     <>
-      <div
+      <div 
+      onClick={handleModeChange}
         style={{
           display: nav === "Hide" ? "none" : "block",
         }}
         className="mobile-nav-links"
+        
       >
         <ul className="nav-links">
           <Link to={"/"}>
